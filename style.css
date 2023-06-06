@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+#home {
+    height: 110vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.929);
+    animation: mymove 5s infinite;
+}
+
+
+
+
+.container {
+
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+
+}
+
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    flex: 50%;
+
+}
+
+
+#name {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+
+#quotes {
+    color: white;
+    width: 70%;
+    margin-top: 30vh;
+    padding: 15px;
+    text-align: center;
+    transform: translateX(-150%);
+    animation: about-text-animation 2s ease-in-out forwards;
+
+}
+
+#quotes h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+
+
+}
+
+
+@keyframes about-text-animation {
+    100% {
+        transform: translate(0);
+    }
+}
+
+#quotes span {
+    color: rgb(7, 7, 234);
+    font-weight: bolder;
+    font-size: 65px;
+
+}
+
+
+
+#photo {
+    /* width: 25%; */
+    width: 50px;
+    /* padding: 5px; */
+    /* justify-content: center; */
+    /* position: relative; */
+
+
+}
+
+
+#image {
+
+    margin: auto;
+
+}
+
+/*************************** about**************************************** */
+
+
+#about {
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+
+}
+
+
+#about .container {
+    position: absolute;
+}
+
+
+/* #about .container .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+ */
+
+
+#about .container .row {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+#about .container .row .col-6 {
+    /* flex: 50%; */
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+#about .container .row .col-6 h1 {
+    color: maroon;
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+
+#icon {
+    font-size: 50px;
+
+}
+
+
+/* *************************booking******************************* */
+
+#booking {
+
+
+    height: 120vh;
+    width: 100%;
+    /* background-color: rgba(0, 0, 139, 0.71); */
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 139, 0.71), rgb(45, 92, 249));
+
+}
+
+
+#booking .container {
+    position: absolute;
+}
+
+
+#booking .container .row {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+#booking .container .row .col-6 {
+
+    font-family: 'Poppins', sans-serif;
+    flex: 50%;
+
+
+}
+
+
+
+
+.form-container {
+    width: 320px;
+    border-radius: 0.75rem;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 2rem;
+    color: rgba(243, 244, 246, 1);
+    box-shadow: 2px 2px 20px 5px rgb(0, 0, 0, 0.5);
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.form {
+    margin-top: 1.5rem;
+}
+
+.input-group {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.input-group label {
+    display: block;
+    color: rgba(156, 163, 175, 1);
+    margin-bottom: 4px;
+}
+
+.input-group input {
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 1px solid rgba(55, 65, 81, 1);
+    outline: 0;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 0.75rem 1rem;
+    color: rgba(243, 244, 246, 1);
+}
+
+.input-group input:focus {
+    border-color: rgba(167, 139, 250);
+}
+
+
+
+.input-group select {
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 1px solid rgba(55, 65, 81, 1);
+    outline: 0;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 0.75rem 1rem;
+    color: rgba(243, 244, 246, 1);
+}
+
+.input-group select:focus {
+    border-color: rgba(167, 139, 250);
+}
+
+
+
+
+.sign {
+    display: block;
+    width: 100%;
+    background-color: rgba(167, 139, 250, 1);
+    padding: 0.75rem;
+    text-align: center;
+    color: rgba(17, 24, 39, 1);
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 600;
+}
+
+
+
+#rev {
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+
+}
+
+#people {
+    font-size: 15px;
+}
+
+#reviews {
+
+    border: 1px solid;
+    height: 35vh;
+    width: 70%;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 5px rgb(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+/* **********footer************ */
+
+#footer {
+
+    height: 350px;
+    width: 100%;
+
+}
+
+
+#reachhead {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+
+.icon-div {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    background-color: white;
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+.icon:hover {
+    background-image: linear-gradient(180deg, rgb(108, 148, 141), rgb(255, 255, 249));
+
+
+}
+
+footer {
+    margin-top: 2rem;
+
+    font-family: 'Comfortaa', cursive;
+}
+
+.up-arrow {
+
+
+    float: right;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+    font-weight: bolder;
+    background-color: darkcyan;
+
+
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(240, 255, 255, 0.601);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+
+    #home {
+        height: 110vh;
+    }
+
+    .col-6 {
+        flex: 50%;
+
+
+    }
+
+    /* ************************* */
+
+
+
+
+    #book {
+        flex: 50%;
+    }
+
+    #search {
+        flex: 50%;
+    }
+
+    /* ******************** */
+
+    #booking {
+
+        height: 180vh;
+
+    }
+
+
+
+    
+
+    #booking #customer {
+
+        margin-left: 110px;
+        margin-top: 40px;
+        /* flex: 50%; */
+
+    }
+
+    
+
+    
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:767px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    
+
+    #quotes {
+        flex: 100%;
+        margin: auto;
+    }
+
+    #photo {
+        flex: 50%;
+        margin-left: 80px;
+        align-items: center;
+    }
+
+    #home {
+        height: 150vh;
+        width: auto;
+    }
+
+
+    /* ****************************************** */
+
+    #search {
+        flex: 100%;
+    }
+
+    #book {
+        flex: 100%;
+
+
+    }
+
+
+    #about {
+        /* height: 90vh; */
+        height: 750px;
+
+    }
+
+
+    #about .container .row .col-6 {
+        padding: 25px;
+        text-align: center;
+
+    }
+
+    /* ***************************************** */
+
+    
+
+    
+
+
+
+
+}
+
+
+
+@media (max-width:567px) {
+
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #home {
+        width: auto;
+        height: 150vh;
+
+    }
+
+
+    #quotes {
+        flex: 100%;
+        margin: auto;
+    }
+
+    #photo {
+        flex: 100%;
+
+    }
+
+
+
+
+    #about {
+        height: 750px;
+
+    }
+
+    #search {
+        flex: 100%;
+
+    }
+
+    #book {
+        flex: 100%;
+    }
+
+
+
+    #booking{
+        height: 1300px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:400px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    #home {
+        width: 100%;
+        height: 160vh;
+
+    }
+
+
+    #quotes {
+        flex: 100%;
+        margin: auto;
+        
+    }
+
+    #photo {
+        flex: 100%;
+
+    }
+
+
+    #about{
+        height: 110vh;
+    }
+
+#reviews{
+    height: 350px;
+}
+
+#booking{
+    height: 1300px;
+}
+
+
+
+
+
+}
