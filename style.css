@@ -10,6 +10,8 @@
 }
 
 
+
+
 #home {
     height: 110vh;
     width: 100%;
@@ -84,11 +86,11 @@
 
 
 #photo {
-    /* width: 25%; */
+
     width: 50px;
     /* padding: 5px; */
     /* justify-content: center; */
-    /* position: relative; */
+    
 
 
 }
@@ -346,7 +348,7 @@
 }
 
 .icon:hover {
-    background-image: linear-gradient(180deg, rgb(108, 148, 141), rgb(255, 255, 249));
+    background-image: linear-gradient(180deg, darkcyan, darkcyan);
 
 
 }
@@ -575,8 +577,12 @@ footer {
         height: 1300px;
     }
 
+    
+    #reviews{
+    height: 400px;
+}
 
-
+    
 
 
 
@@ -618,11 +624,11 @@ footer {
     }
 
 #reviews{
-    height: 350px;
+    height: 450px;
 }
 
 #booking{
-    height: 1300px;
+    height: 1400px;
 }
 
 
